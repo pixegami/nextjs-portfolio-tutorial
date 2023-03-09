@@ -12,7 +12,7 @@ const ProjectPreview = (props: ProjectPreviewInterface) => {
   return (
     <div className="flex gap-4 bg-slate-200">
       <div className="relative w-24 h-16">
-        <Image src={props.image} layout="fill" />
+        <Image src={props.image} layout="fill" alt="alt text of image" />
       </div>
       <div className="my-auto">
         <Link href={props.linkUrl}>
